@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: coral;
+            color: white;
+            padding: 1% 5%;
+            text-align: center;
+        }
+        .nav-menu{
+            padding: 1% 5%;
+            background-color: rgb(67, 193, 231);
+        }
+        .nav-menu a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px;
+            display: block;
+            text-align: center;
+        }
+        .main{
+            padding: 1% 5%;
+            background-color: turquoise;
+        }
+        .aside{
+            padding: 1% 5%;
+           color: white;
+           background-color: rgb(67, 193, 231);
+            padding: 20px;
+            font-size: 0.8rem;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        [class*="col-"] {
+        width: 100%;
+}  
+
+ 
+
+  [class*="col-"] {
+ float: left;
+ padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+         /* For desktop: */
+         .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Shahadoth ali</h1>
+    </div>
+
+    <div class="row">
+        <div class="nav-menu col-2 col-s-3">
+            <a href="#">Home</a>
+            <a href="#">Tutorials</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="main col-7 col-s-9">
+            <h1>i am a web designer</h1>
+            <p>
+                Dolor accusam sea lorem clita clita labore dolore sadipscing eos. Ut eirmod vero justo et at elitr takimata kasd tempor. Duo dolor takimata sit elitr nonumy clita. Labore clita accusam takimata voluptua ut sadipscing invidunt. Sanctus at sed eirmod et no, stet ut eos sea at at dolores, tempor nonumy duo eirmod et tempor stet amet, aliquyam justo gubergren sed sed et erat magna, no sea diam tempor diam stet et vero ipsum, et lorem stet aliquyam et consetetur eirmod dolor tempor. Invidunt consetetur gubergren sed dolores dolore aliquyam elitr, dolor takimata et sed erat dolor. Vero et clita sit.
+            </p>
+            <p>
+                Dolor accusam sea lorem clita clita labore dolore sadipscing eos. Ut eirmod vero justo et at elitr takimata kasd tempor. Duo dolor takimata sit elitr nonumy clita. Labore clita accusam takimata voluptua ut sadipscing invidunt. Sanctus at sed eirmod et no,
+            </p>
+            <p>
+                Dolor accusam sea lorem clita clita labore dolore sadipscing eos. Ut eirmod vero justo et at elitr takimata kasd tempor. Duo dolor takimata sit elitr nonumy clita. Labore clita accusam takimata voluptua ut sadipscing invidunt. Sanctus at sed eirmod et no,
+            </p>
+        </div>
+
+        <div class="aside col-3 col-s-12">
+<h2>what i love?</h2>
+<p>  Dolor accusam sea lorem clita clita labore dolore sadipscing eos. Ut eirmod vero justo et at elitr takimata kasd tempor. Duo dolor takimata sit elitr nonumy clita. Labore clita accusam takimata voluptua ut sadipscing invidunt. Sanctus at sed eirmod et no</p>
+
+<h2>what i dont love?</h2>
+<p>  Dolor accusam sea lorem clita clita labore dolore sadipscing eos. Ut eirmod vero justo et at elitr takimata kasd tempor. Duo dolor takimata sit elitr nonumy clita. Labore clita accusam takimata voluptua ut sadipscing invidunt. Sanctus at sed eirmod et no</p>
+        </div>
+
+        
+    </div>
+
+    <div class="footer">
+        &copy;Study with Shahadoth.Developed by Shahadoth.
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+/*a=0,b=0,c=1;a+b+c=001  */
+h1{
+    background-color: blue;
+}
+/*a=0,b=0,c=1;a+b+c=001  */
+h1{
+    background-color: red;
+}
+/*a=0,b=1,c=0;a+b+c=010  */
+.demo{
+    background-color: burlywood;
+}
+/*a=0,b=1,c=1;a+b+c=011  */
+h1.demo{
+    background-color: darkmagenta;
+}
+/*a=1,b=0,c=0;a+b+c=100  */
+#heading{
+    background-color: darkorange;
+}

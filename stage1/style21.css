@@ -1,0 +1,10 @@
+.gradient-style{
+    height: 300px;
+    width: 50%;
+  background-image: linear-gradient(to right,red ,green,yellow,orange);
+}
+.gradient2-style{
+    height: 300px;
+    width: 50%;
+    background-image:radial-gradient(circle,blue,green,gray,orange);
+}

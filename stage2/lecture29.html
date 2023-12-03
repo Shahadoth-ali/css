@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow and tooltip</title>
+    <style>
+div{
+    height: 200px;
+    width: 250px;
+    background-color: blue;
+    overflow: scroll;
+   margin: 20px;
+}
+.tooltip{
+    position: relative;
+}
+.tooltip-text{
+visibility: hidden;
+width: 150px;
+background-color: rgb(187, 36, 192);
+color: white;
+padding: 10px;
+border-radius: 5px;
+position: absolute;
+top: 30px;
+left: 30px;
+
+}
+.tooltip:hover .tooltip-text{
+visibility: visible;
+}
+    </style>
+</head>
+<body>
+    <a href="#" class="tooltip">Facebook
+        <span class="tooltip-text">Facebook is a social media</span>
+    </a>
+    <div>
+sapien. Sed molestie efficitur malesuada. Curabitur ac venenatis sem, eget vulputate eros. Mauris viverra magna turpis, a condimentum urna posuere nec. Maecenas vehicula, urna sed facilisis facilisis, urna libero sollicitudin justo, porttitor egestas augue odio at orci. In sit amet lacus sed dolor venenatis sagittis. Etiam efficitur pulvinar velit. In sit amet nibh at enim interdum consectetur. Ut porta vestibulum felis et sodales. Duis suscipit arcu nunc, in interdum dui volutpat et. Morbi vel augue a metus porta interdum vel a ipsum.
+    </div>
+</body>
+</html>

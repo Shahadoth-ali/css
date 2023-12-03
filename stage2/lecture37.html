@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: cadetblue;
+    grid-template-rows: 50px 50px 50px;
+    border: 1px solid black;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    padding-top: 15px;
+}
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    padding-top: 15px;
+}
+.it{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="item1">Header</div>
+    <div class="it">Menu</div>
+    <div class="it">Main</div>
+    <div class="it">Asset</div>
+    <div class="item5">Footer</div>
+   </div>
+</body>
+</html>

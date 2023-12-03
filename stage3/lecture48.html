@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            max-width: 200px;
+            height: auto;
+border: 5px solid black;
+display: block;
+margin: 0 auto;
+margin-top: 100px;
+border-radius: 50%;
+
+
+        }
+        @keyframes image-anim {
+           from{
+max-width: 200px;
+           } 
+           to{
+max-width: 300px;
+           }
+        }
+        img:hover{
+            animation-name: image-anim;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+        }
+    </style>
+</head>
+<body>
+<img src="images/bbc.png">
+</body>
+</html>

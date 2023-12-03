@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: rgb(174, 0, 255);
+            padding: 1% 7%;
+            text-align: center;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.2 rem;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .dropdown-container{
+            display: inline;
+            position: relative;
+        }
+        .dropdown-content a{
+display: block;
+        }
+        .dropdown-content{
+            position: absolute;
+            top: 30px;
+            right: 0px;
+            background-color: blueviolet;
+            text-align: left;
+            min-width: 100px;
+            display: none;
+        }
+        .dropdown-container:hover .dropdown-content{
+display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+       
+        <div class="dropdown-container">
+            <a href="#">Tutorial</a>
+
+          <div class="dropdown-content">
+            <a href="#">Contact</a>
+            <a href="#">Facebook</a>
+          </div>
+
+        </div>
+        <a href="#">Email</a>
+        <a href="#">About</a>
+    </div>
+</body>
+</html>
